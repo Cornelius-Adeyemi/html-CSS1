@@ -1,0 +1,72 @@
+html{
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+body{
+    width: 100%;
+    padding: 0;
+    margin-top: -20px;
+    background-color:white;
+    overflow-x: hidden;
+    
+    }
+
+    *, *::after, *::before{
+    box-sizing: inherit;
+    }
+    main{
+    background:grey;
+    width: 100%;
+   
+    }
+    h1,.pp{
+    text-align:center;
+    }
+    .img-div{
+    background:white;
+    margin:10px;
+    }
+    .b{
+    display:block;
+    margin:auto;
+    width:80%;
+    }
+    .caption{
+    text-align:center;
+    padding-top:20px;
+    padding-bottom:20px;
+    }
+    #tribute-info{
+    width:600px;
+    margin: auto;
+    }
+    .h3{
+    text-align:center;
+    padding-top:35px;
+    padding-bottom:25px;
+    }
+    .foot{
+    text-align:center;
+    
+    }
+    .footl{
+    padding-bottom:20px;
+    margin-bottom:20px;
+    }
+    li{
+    padding-top:10px;
+    padding-bottom:10px;
+    }
+    
+    @media(max-width: 800px){
+    .b{
+    
+    width:100%;
+    }
+    
+    #tribute-info{
+    width:80%;
+    }
+    }
